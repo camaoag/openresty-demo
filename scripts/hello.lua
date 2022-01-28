@@ -1,0 +1,1 @@
+ngx.say(string.format('hello %s!', (ngx.var.arg_name or 'world')))
